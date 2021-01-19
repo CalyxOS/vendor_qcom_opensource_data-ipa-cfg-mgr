@@ -58,6 +58,8 @@ cc_binary {
         "android.hardware.tetheroffload.config@1.0",
         "android.hardware.tetheroffload.control@1.0",
     ],
+
+    defaults: ["inline_kernel_building_defaults"],
 }
 
 //###############################################################################
